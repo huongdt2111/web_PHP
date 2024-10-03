@@ -1,0 +1,92 @@
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    .logo-home {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#fff;
+    box-shadow:0 0 10px 0 rgba(0,0,0,.1);
+    width: 100%;
+    z-index: 30000;
+    }
+    
+    .home {
+    display: flex;
+    }
+
+    .logo {
+        font-size: 20px;
+        color: white;
+        padding: 10px;
+        margin: 0px 10px;
+        line-height: 80px;
+        }
+            
+    .logo a:hover {
+        background-color: rgb(232, 229, 229);
+        padding: 10px 20px;
+        border-radius: 30px;
+    }
+    
+.logo-img {
+    margin-top: 30px;
+}
+
+input[type=text] {
+    padding: 15px;
+    margin-left: 30px;
+    border: solid 1px orange;
+    font-size: 17px;
+    border-radius: 30px;
+  }
+
+.place {
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 77px;
+}
+
+.place1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.place2 {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.place3 {
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+.place-img {
+    display: flex;
+    gap: 10px;
+}
+
+.place-img-detail {
+    position: relative;
+}
+
+.text-hot {
+   position: absolute;
+   top: 160px;
+   left: 20px;
+   font-size: 20px;
+   font-weight: 500;
+   color: white;
+}
+
+.hover-footer a:hover {
+    color: orangered;
+}
